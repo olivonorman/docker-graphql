@@ -27,10 +27,10 @@ jobs:
         
     - name: Build Docker image
       run: |
-         docker build -t nolivo06/graphql-action:0.0.2
+         docker build -t nolivo06/graphql-action:0.0.2 .
     
     - name: Push Docker image
       run: |
-         docker push nolivo06/graphql-action:0.0.2 . 
+         docker push nolivo06/graphql-action:0.0.2
     # - name: Build the Docker image
     #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
