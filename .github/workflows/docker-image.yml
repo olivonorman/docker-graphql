@@ -27,7 +27,7 @@ jobs:
         
     - name: Build Docker image
       run: |
-         docker build -t nolivo06/graphql-action:0.0.2 .
+         docker build -t nolivo06/graphql-action:0.0.2
     
     - name: Push Docker image
       run: |
